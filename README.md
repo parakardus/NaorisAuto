@@ -28,7 +28,7 @@ Naoris Auto Bot is an automated bot designed to interact with the Naoris Protoco
    ```
    npm install
    ```
-3. Create an accounts.json file in the root directory with the following format:
+3. Create an nano accounts.json file in the root directory with the following format:
    ```
    [
     {
@@ -41,7 +41,7 @@ Naoris Auto Bot is an automated bot designed to interact with the Naoris Protoco
     }
    ]
    ```
-4. (Optional) Create a proxy.txt file in the root directory with the following format:
+4. (Optional) Create an nano proxy.txt file in the root directory with the following format:
    ```
    http://proxy1:port
    socks5://proxy2:port
