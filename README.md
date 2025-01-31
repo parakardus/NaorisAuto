@@ -30,6 +30,10 @@ Naoris Auto Bot is an automated bot designed to interact with the Naoris Protoco
    ```
 3. Create an nano accounts.json file in the root directory with the following format:
    ```
+   nano accounts.json
+   
+   ```
+   ```
    [
     {
         "walletAddress": "0xYourWalletAddress1",
@@ -41,12 +45,16 @@ Naoris Auto Bot is an automated bot designed to interact with the Naoris Protoco
     }
    ]
    ```
-4. (Optional) Create an nano proxy.txt file in the root directory with the following format:
+5. (Optional) Create an nano proxy.txt file in the root directory with the following format:
+   ```
+   nano proxy.txt
+   
+   ```
    ```
    http://proxy1:port
    socks5://proxy2:port
    ```
-5. Start the bot:
+7. Start the bot:
    ```
    npm run start
    ```
